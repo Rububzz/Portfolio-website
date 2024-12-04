@@ -4,7 +4,7 @@ import profileimg from "../../assets/rubinnn.png";
 
 const Header = () => {
   return (
-    <div className="header">
+    <div id="home" className="header">
       <img src={profileimg} alt="profileimg" className="profileimage" />
       <h1 className="Intro">
         Hi! I am <span>Lin Rubin</span>.

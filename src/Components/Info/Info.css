@@ -1,0 +1,44 @@
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:80px;
+    margin:80px 170px;
+}
+
+.info-title {
+    position: relative;
+}
+
+.info-title h1 {
+    padding: 0 30px;
+    font-size: 60px;
+    font-weight:600;
+    gap:80px;
+}
+
+.info-section {
+    display: flex;
+    gap:80px
+}
+
+.info {
+    display: flex;
+    gap:50px;
+    align-items: center;
+    transition: .3s;
+    margin-bottom: 50px;
+    padding: 25px 75px;
+    border-radius: 50px;
+    border: 2px solid #FFF;
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+.info a {
+    color:red;
+}
+
+.info:hover {
+    background-color: #40E0D0;
+}
