@@ -42,3 +42,24 @@
 .info:hover {
     background-color: #40E0D0;
 }
+
+@media(max-width:768px) {
+    .information {
+        gap:60px;
+        margin: 50px 70px;
+        align-items: center;
+    
+
+    .info-title h1{
+        font-size: 40px;
+        padding: 0;
+    }
+
+    .info-section {
+        gap: 20px;
+        padding:10px 20px;
+        border-radius: 20px;
+        margin-bottom: 0;
+        align-items: center;
+    }
+}

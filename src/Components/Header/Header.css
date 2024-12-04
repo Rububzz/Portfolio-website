@@ -45,3 +45,29 @@
 .my-resume:hover {
     border-color:#B415FF;
 }
+
+@media(max-width:768px) {
+    .header img {
+        margin-bottom: 120px;
+        width:260px;
+    }
+
+    .Intro {
+        margin-top: 50px;
+        width:90%;
+        font-size: 20;
+    }
+
+    .header-action {
+        gap:16px;
+        font-size: 15px;
+        font-weight: 500;
+        margin-bottom: 50px;
+    }
+
+    .my-resume {
+        padding:20px 50px;
+        border-radius: 40px;
+    }
+
+}

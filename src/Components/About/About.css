@@ -74,3 +74,42 @@
     transform: scale(1.05);
     transition: .3s;
 }
+
+@media(max-width:768px) {
+    .about {
+        gap:80px;
+        margin:50px 70px;
+        align-items: start;
+    }
+
+    .about-title h1{
+        font-size: 40px;
+        padding: 0;
+    }
+
+    .aboutsection {
+        flex-direction: column;
+    }
+
+    .aboutleft {
+        display: none;
+    }
+
+    .about-para {
+        font-size: 13px;
+        line-height: 32px;
+    }
+
+    .about-skill {
+        gap:20px;
+        align-items: center;
+    }
+
+    .about-skill p {
+        font-size: 15px;
+    }
+
+    .about-skill hr {
+        height:6px;
+    }
+}
