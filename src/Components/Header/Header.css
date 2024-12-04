@@ -1,0 +1,36 @@
+.profileimage {
+    object-fit: contain;
+    width: 300px;
+    height: 250px;
+    margin-top: 150px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.Intro {
+    font-size:50px;
+    text-align: center;
+    width: 70%;
+    font-weight: 600;
+}
+
+.header h1 span {
+    background:linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header-action {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 24px;
+    font-weight:500;
+    margin-bottom: 50px;
+}
