@@ -34,3 +34,14 @@
     font-weight:500;
     margin-bottom: 50px;
 }
+
+.my-resume {
+    padding: 25px 75px;
+    border-radius: 50px;
+    border: 2px solid #FFF;
+    cursor: pointer;
+}
+
+.my-resume:hover {
+    border-color:#B415FF;
+}

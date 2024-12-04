@@ -7,8 +7,7 @@ const Header = () => {
     <div className="header">
       <img src={profileimg} alt="profileimg" className="profileimage" />
       <h1 className="Intro">
-        Hi! I am <span>Lin Rubin</span>. Currently a NUS student studying
-        Computer Science!
+        Hi! I am <span>Lin Rubin</span>.
       </h1>
       <div className="header-action">
         <div className="my-resume">My resume</div>
