@@ -31,7 +31,6 @@
     padding: 25px 75px;
     border-radius: 50px;
     border: 2px solid #FFF;
-    cursor: pointer;
     background-color: aquamarine;
 }
 
@@ -52,6 +51,7 @@
     margin: 0; 
     font: inherit; 
     color: inherit; 
+    cursor: pointer;
 }
 
 @media(max-width:768px) {
