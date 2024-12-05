@@ -40,6 +40,8 @@
     border-radius: 50px;
     border: 2px solid #FFF;
     cursor: pointer;
+    text-decoration: none;
+    color:white;
 }
 
 .my-resume:hover {

@@ -43,6 +43,17 @@
     background-color: #40E0D0;
 }
 
+.info a button {
+    text-decoration: none;
+    border: none;
+    outline: none; 
+    background: none; 
+    padding: 0; 
+    margin: 0; 
+    font: inherit; 
+    color: inherit; 
+}
+
 @media(max-width:768px) {
     .information {
         gap:60px;
