@@ -67,7 +67,10 @@
     width: 50%;
     height:8px;
     border-radius:50px;
-    background-color: aqua;
+    background: linear-gradient(
+        to right,
+        #0B486B,#F56217
+      );
 }
 
 .about-skill:hover{
